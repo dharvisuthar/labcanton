@@ -1,0 +1,597 @@
+
+.navbar{
+  height: 70px !important;
+}
+.navbar-header{
+    background: rgba(255, 255, 255, 1) !important;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 70px;
+    line-height: 0.2;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,1) !important;
+  font-weight: 500;
+  font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: cadetblue !important;
+    cursor: pointer;
+}
+.col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 30.333333%;
+}
+.h-60{
+    height: 60px !important;
+}
+.font-14{
+  font-size: 14px !important;
+}
+.main-bg-subscribe{
+  background-image: url(images/img/the_ball.jpg);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 320px;
+}
+.subscribe-main-inner-div {
+  background-color: rgba(54, 53, 51, 0.95);
+  text-align: center;
+  height: 320px;
+}
+.padding-80 {
+  padding: 80px !important;
+}
+.subscribe-main-div-h1 {
+  color: cadetblue;
+  text-align: center;
+  font-size: 2.5em;
+}
+.subscribe-main-div-h2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 2em;
+}
+.textbox-subscribe {
+  background-color: transparent;
+  border-bottom: 1px white solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 200px !important;
+  color: #ffffff;
+}
+.btn-subscribe {
+  background-color: cadetblue !important;
+  color: #ffffff !important;
+  padding: 5px !important;
+  margin-left: 10px !important;
+  border: 0px;
+  border-radius: 5px;
+}
+.information-div {
+  width: 1100px !important;
+  margin: 0px auto !important;
+  text-align: center !important;
+  padding: 20px;
+}
+.information-inner-div {
+  border-right: 1px #000000 solid;
+}
+.quoate-div {
+  background-color: #f1f1f1;
+}
+.quoate-div-h1 {
+  text-align: center;
+  margin: 0px auto;
+  padding: 80px;
+  font-weight: bold;
+}
+.Customer-review-div {
+  background-color: cadetblue;
+}
+.Customer-review-h1 {
+  text-align: center;
+  color: #ffffff;
+  padding: 50px;
+  margin: 0px;
+  font-size: 2.5em;
+}
+.customer-review-container {
+  width: 1100px !important;
+  margin: 0px auto !important;
+}
+.customer-review-inner-div-text {
+  border-right: 1px white solid;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.customer-review-inner-div-text-h1 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+.customer-review-inner-div-text-h3 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.17em;
+}
+.color-icon-yellow {
+  color: #ff6f00 !important;
+}
+.start-icon-yellow {
+  width: 22px !important;
+  height: 24px !important;
+}
+.margin-top-20 {
+  margin-top: 20px !important;
+}
+.customer-review-inner-div-text-p {
+  color: #000000;
+}
+.padding-bottom-20 {
+  padding-bottom: 20px !important;
+}
+.font-size-30{
+  font-size: 30px;
+}
+.gallery-div {
+  background-color: yellow;
+}
+.gallery-div-h1 {
+  color: #000000;
+  text-align: center;
+  margin: 0px auto;
+  padding: 50px;
+  font-size: 2.5em;
+}
+.gallery-sec-div {
+  width: 1100px;
+  margin: 0px auto;
+}
+.what-we-offer-sec-div-container {
+  padding: 20px;
+}
+.gallery-column {
+  padding: 5px !important;
+}
+.gallery-img {
+  width: 100%;
+  height: auto;
+  margin: 5px;
+}
+.about-us-div {
+  background-color: cadetblue;
+}
+.about-us-div-h1 {
+  color: #ffffff;
+  text-align: center;
+  margin: 0px auto;
+  padding: 50px;
+  font-size: 2.5em;
+}
+.what-we-offer-sec-div-container {
+  padding: 20px;
+}
+.team-tour-worm-up-img {
+  width: 100%;
+}
+.what-we-offer-div {
+  background-color: cadetblue !important;
+}
+.what-we-offer-div-h1 {
+  color: #ffffff;
+  text-align: center;
+  margin: 0px auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-size: 2.5em;
+}
+.what-we-offer-sec-div {
+  background-color: #ffffff;
+  width: 1100px;
+  margin: 0px auto;
+}
+.a-book-now {
+  text-decoration: none;
+  color: #039be5;
+}
+.what-we-offer-sec-div-first-col-h1 {
+  color: #000000;
+  font-size: 2em;
+  font-weight: 600;
+  font-family: "Roboto",sans-serif;
+}
+.what-we-offer-sec-div-first-col-sec-span-slider {
+  color: #039be5;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.what-we-offer-sec-div-first-col-sec-span {
+  color: #039be5;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.what-we-offer-sec-div-first-col-sec-span-black {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+}
+.what-we-offer-sec-div-first-col-sec-span-h4 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+}
+.what-we-offer-sec-div-first-col-sec-span-h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.get-contact-div {
+  height: 500px;
+}
+.get-contact-cardmedia {
+  width: 100%;
+  height: 500px;
+  background-image: url("../src/images/img/getContact.jpg");
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.get-contact-over-div {
+  height: 500px;
+  position: relative;
+  top: -521px;
+}.get-contact-h1 {
+  color: #ffffff;
+  position: relative;
+  top: 125px;
+  text-align: center;
+  opacity: 1;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.get-contact-h3-div {
+  position: relative;
+  top: 175px;
+  text-align: center;
+  opacity: 1;
+  text-transform: uppercase;
+  height: 50px;
+  width: 200px;
+  background-color: cadetblue;
+  margin: 0px auto;
+  border-radius: 30px;
+}
+.get-contact-slider-div{
+  position: relative;
+  top: 250;
+  text-align: center;
+  opacity: 1;
+  height: 50px;
+  width: 200px;
+  background-color: cadetblue;
+  margin: 0px auto;
+  border-radius: 30px;
+
+}
+.get-contact-h3 {
+  color: #ffffff;
+    position: relative;
+    text-align: center;
+    opacity: 1;
+    top: 8px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+}
+.get-contact-h3:hover{
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.get-contact-div-container {
+  width: 1100px !important;
+  margin: 0px auto !important;
+}
+.get-contact-details-container {
+  width: 500px !important;
+  background-color: #f1f1f1 !important;
+  border-radius: 5px;
+  position: relative;
+  top: -569px !important;
+  margin-left: 20px;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+  text-align: center;
+}
+.get-contact-sec-div {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 5px !important;
+  padding: 2px 10px;
+}
+.get-contact-details-sec-p {
+  color: cadetblue;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.get-contact-details-sec-p-yelow {
+  color: cadetblue;
+  font-weight: 800;
+}
+.a-link-direction {
+  color: cadetblue;
+  text-decoration: none;
+}
+.cadet-blue-bg {
+  background-color: cadetblue;
+}
+.our-services-div-h1 {
+  color: #ffffff;
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  font-size: 2.5em;
+}
+.carousel-paper-grid-col-1-h1 {
+  color: #000000;
+  text-align: center;
+  margin: 0px auto;
+}
+.slider-img {
+  width: 100%;
+  height: 400px;
+}
+.slider-contact-div{
+  position: relative;
+  top: 250px;
+  text-align: center;
+  opacity: 1;
+  margin: 0px auto;
+  border-radius: 30px;
+  width: 85%;
+}
+.menu-btn {
+  text-decoration: none;
+  color: black;
+  font-weight:500;
+  font-size: 14px;
+}
+.menu-btn:hover {
+  color: cadetblue;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***Footer **/
+.details-main-div {
+  background-color: lightgrey;
+}
+.ul-li-remove{
+  list-style: none;
+}
+.details-textbox {
+  background-color: transparent;
+  border-bottom: 1px #000000 solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 200px !important;
+  padding: 5px;
+}
+.btn-send-msg {
+  background-color: cadetblue;
+  color: #ffffff;
+  border: 0px;
+  padding: 7px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.a-link {
+  text-decoration: none;
+  color: #039be5;
+}
+.a-link:hover {
+  text-decoration: none;
+  color: #039be5;
+}
+.color-039be5{
+  color: #039be5;
+}
+.color-cadetblue {
+  color: cadetblue !important;
+}
+ .font-family-Roboto{
+  font-family: "Roboto";
+} 
+.baseball-a {
+  background-color: cadetblue;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  float: right;
+  margin-right: 0px;
+  margin-top: 5px;
+}
+.menu-btn-grid {
+  max-width: 96px !important;
+  float: left !important;
+  padding: 8px;
+}
+.menu-btn-grid:hover{
+  color: cadetblue;
+  cursor: pointer;
+}
+.a-link-black{
+  color: #000;
+  text-decoration: none;
+}
+.a-link-black:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.baseball-p {
+  color: #000000;
+  font-weight: 400;
+  padding-bottom: 5px;
+  margin: 0px;
+}
+.padding-top-5{
+  padding-top: 3rem !important;
+}
+@media (max-width: 576px) {
+  .navbar-header{
+    height: 145px;
+  }
+  .slider-contact-div-mobile{
+    position: relative;
+    top: 215px;
+    text-align: center;
+    opacity: 1;
+    text-transform: uppercase;
+    margin: 0px auto;
+    border-radius: 30px;
+    width: 85%;
+    display: isMob;
+  }
+  .get-contact-div-container{
+    width: 100% !important;
+  } 
+  .get-contact-details-container{
+    width:87% !important;
+    max-width: 500px !important;
+
+  }
+  .padding-top-5{
+    padding-top: 1rem !important;
+  }
+  .navbar-collapse {
+    background-color: white;
+    padding: 14px;
+    width: 100vw;
+    margin: -9px -31px;
+}
+.btn-subscribe{
+margin-top: 20px;
+} 
+}
+@media(max-width:1100px){
+  .our-services-div-h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 66px;
+    padding-bottom: 24px;
+    font-size: 2em;
+}
+.carousel-paper-grid-col-1-h1{
+  font-size: 1rem;
+}
+.get-contact-h1{
+  top: 124px;
+}
+  .what-we-offer-sec-div {    
+    width: 94% !important;
+    margin: 0px 10px;
+  }
+  .gallery-sec-div{
+    width: 100% !important;
+  }
+  .customer-review-container{
+    width: 100% !important;
+    padding: 10px;
+  }
+  .customer-review-inner-div-text{
+    border: 0px solid;
+  }
+  .information-inner-div {
+    border: 0px solid;
+}
+  .information-div{
+    width: 100% !important;
+  }
+  .h-60{
+    height: 55px;
+  }
+  .about-us-div-h1{
+    padding: 20px;
+  }
+  .gallery-div-h1{
+    padding: 20px;
+  }
+  .what-we-offer-div-h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .what-we-offer-sec-div-first-col-h1{
+    font-size: 25px;
+  }
+  .Customer-review-h1{
+    padding: 25px;
+  }
+  .customer-review-inner-div-text-h3{
+    font-size: 20px;
+  }
+  .quoate-div-h1{
+    padding: 35px;
+    font-size: 25px;
+  }
+  .padding-80{
+    padding: 50px !important;
+  }
+  .subscribe-main-div-h1{
+    font-size: 25px;
+  }
+  .subscribe-main-div-h2{
+    font-size: 22px;
+  }
+}
+
+
+
+
+
+
+
